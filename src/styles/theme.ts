@@ -4,7 +4,7 @@ export default {
     gutter: '3.2rem'
   },
   border: {
-    radius: '50%'
+    radius: '0.5rem'
   },
   font: {
     family:
@@ -14,8 +14,8 @@ export default {
     bold: 600,
     sizes: {
       normal: '1rem',
-      medium: '1.5rem',
-      large: '1.8rem'
+      medium: '2.5rem',
+      large: '5rem'
     }
   },
   colors: {
@@ -28,9 +28,8 @@ export default {
   },
   spacings: {
     xxsmall: '0.8rem',
-    xsmall: '1.6rem',
-    small: '2.4rem',
-    medium: '3.2rem',
+    normal: '1rem',
+    medium: '2rem',
     large: '4.0rem',
     xlarge: '4.8rem',
     xxlarge: '5.6rem'
