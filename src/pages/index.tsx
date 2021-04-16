@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <div>
-      <h1>HEllo world</h1>
-    </div>
-  )
+import Home from 'templates/Home'
+
+export default function Index() {
+  return <Home />
 }
