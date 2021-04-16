@@ -15,7 +15,7 @@ export default {
     sizes: {
       normal: '1rem',
       medium: '2.5rem',
-      large: '5rem'
+      large: '3.3rem'
     }
   },
   colors: {
