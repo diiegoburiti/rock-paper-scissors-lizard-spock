@@ -1,58 +1,64 @@
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
-## What is inside?
+<h1 align="center">
+   <a href="#"> Rock, Paper, Scissors, Lizard or Spock </a>
+</h1>
 
-This project uses lot of stuff as:
+### Pre-requisites
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
-- [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
+Before you begin, you will need to have the following tools installed on your machine:
+[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
+In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
-## Getting Started
-
-First, run the development server:
+#### Running application
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+# Clone this repository
+$ git clone https://github.com/diiegoburiti/rock-paper-scissors-lizard-spock.git
+
+# Access the project folder in your terminal
+$ cd rock-paper-scissors-lizard-spock
+
+# Install the dependencies
+$ npm install or yarn install
+
+# Run the application in development mode
+$ npm run dev or yarn dev
+
+# The application will open on the port: 3000 - go to http://localhost:3000
+
 ```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The following tools were used in the construction of the project:
 
-## Commands
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+-   **[React](https://reactjs.org/)**
+-   **[TypeScript](https://www.typescriptlang.org/)**
+-   **[NextJS](https://nextjs.org/)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Styled Components](https://styled-components.com/)**
+-   **[React Testing Library](https://testing-library.com/)**
+-   **[Husky](https://github.com/typicode/husky)**
+-   **[Prettier](https://prettier.io/)**
+-   **[Eslint](https://eslint.org/)**
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+> See the file  [package.json](https://github.com/diiegoburiti/rock-paper-scissors-lizard-spock/blob/main/package.json)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## How to contribute
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the project.
+2. Create a new branch with your changes: `git checkout -b my-feature`
+3. Save your changes and create a commit message telling you what you did: `git commit -m" feat: My new feature "`
+4. Submit your changes: `git push origin my-feature`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is under the license [MIT](./LICENSE).
